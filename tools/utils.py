@@ -4,6 +4,8 @@ from tensorflow import map_fn
 import numpy as np
 import os
 import skimage
+from skimage import io
+from skimage import color
 import cv2
 from math import cos, sin
 from imgaug import augmenters as iaa

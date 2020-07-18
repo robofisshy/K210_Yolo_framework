@@ -54,6 +54,12 @@ def findClosestCentroids(X: tf.Tensor, centroids: tf.Tensor) -> tf.Tensor:
     tf.Tensor
         idx, shape = [?,]    
     """
+
+    """
+    X_shape = (train_num, centroid_num, 2)
+    tf_fake_iou返回的array, shape为(train_num, centroid_num)
+    idx_shape = (train_num, 1)
+    """
     idx = tf.argmin(tf_fake_iou(X, centroids), axis=1)
     return idx
 
@@ -121,9 +127,9 @@ def build_kmeans_graph(new_x: np.ndarray, new_c: np.ndarray):
     Parameters
     ----------
     new_x : np.ndarray
-        shape= [?,5,2]
+        shape = [?,anchor_num * 2,2]
     new_c : np.ndarray
-        shape = [?,5,2]
+        shape = [?,anchor_num * 2,2]
 
     Returns
     -------

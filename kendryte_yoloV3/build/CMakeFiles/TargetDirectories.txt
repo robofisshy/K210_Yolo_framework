@@ -1,0 +1,6 @@
+D:/yyq_work/KendryteIDE/Example/kendryte_yoloV3/build/CMakeFiles/kendryte_yoloV3.dir
+D:/yyq_work/KendryteIDE/Example/kendryte_yoloV3/build/CMakeFiles/edit_cache.dir
+D:/yyq_work/KendryteIDE/Example/kendryte_yoloV3/build/CMakeFiles/rebuild_cache.dir
+D:/yyq_work/KendryteIDE/Example/kendryte_yoloV3/build/kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir
+D:/yyq_work/KendryteIDE/Example/kendryte_yoloV3/build/kendryte_standalone-sdk/CMakeFiles/edit_cache.dir
+D:/yyq_work/KendryteIDE/Example/kendryte_yoloV3/build/kendryte_standalone-sdk/CMakeFiles/rebuild_cache.dir

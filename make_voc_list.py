@@ -4,6 +4,7 @@ import numpy as np
 import sys
 import argparse
 import skimage
+from skimage import io
 
 
 def main(train_file: str, output_file: str):

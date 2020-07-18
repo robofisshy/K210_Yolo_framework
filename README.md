@@ -151,7 +151,9 @@ Now you have `mobile_yolo.tflite`
 
 ## Convert Kmodel
 
-Please refer [nncase v0.1.0-RC5](https://github.com/kendryte/nncase/tree/v0.1.0-rc5) [example](https://github.com/kendryte/nncase/tree/v0.1.0-rc5/examples/20classes_yolo)
+```shell script
+ncc_tools\ncc.exe test.tflite test.kmodel -i tflite -o k210model --dataset test_image\
+```
 
 ## Demo
 

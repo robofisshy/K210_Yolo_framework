@@ -32,7 +32,7 @@ all:
 	@echo please use \"make train\" or other ...
 
 train:
-	python3 ./keras_train.py \
+	python ./keras_train.py \
 			--train_set ${DATASET} \
 			--class_num ${CLSNUM} \
 			--pre_ckpt ${CKPT} \
@@ -63,7 +63,7 @@ freeze:
 	python3 ./keras_freeze.py ${CKPT}
 			
 inference:
-	python3	./keras_inference.py \
+	python	./keras_inference.py \
 			${CKPT} \
 			${IMG} \
 			--train_set ${DATASET} \
